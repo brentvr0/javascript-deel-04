@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>opdracht invulformulier</title>
+</head>
+<body>
+<nav><a href="index.html">index</a></nav>
+
+<form method="get">
+    <label>First name*: </label>
+    <input type="text" name="Your first name">
+    <br><br>
+    <label>Last name*: </label><input type="text" name="Your last name">
+    <br><br>
+    <label>Which sport do you train?</label>
+    <br>
+    <label>Running </label><input type="checkbox" name="Running">
+    <br>
+    <label>Swimming </label><input type="checkbox" name="Swimming">
+    <br>
+    <label>Rowing </label><input type="checkbox" name="Rowing">
+    <br><br>
+    <label>What's your gender</label>
+    <br>
+    <input type="checkbox" name="Male"><label>Male</label>
+    <br>
+    <input type="checkbox" name="Female"><label>Female</label>
+    <br>
+    <input type="checkbox" name="X"><label>X</label>
+    <br><br>
+    <label>Favorite Movie </label><input type="text">
+    <br><br>
+    <label>Favorite Quote </label><input type="text">
+    <br><br>
+    <label>Password* </label><input type="password">
+    <br><br>
+    <label>Favorite food </label>
+    <input list="Favorite food" name="Favorite food"/>
+    <datalist id="Favorite food">
+        <option value="Frituur eten"></option>
+        <option value="Chinees"></option>
+        <option value="Vegetarians bhoeeeeee!"></option>
+        <option value="Kip met patatten"></option>
+    </datalist>
+    <br><br>
+    <input type="file">
+    <br><br>
+    <label>Email address </label><input type="email">
+    <br><br>
+    <label>Favorite site </label><input type="url">
+    <br><br>
+    <label>Favorite number between 1-10: </label><input type="number" max="10" min="1">
+    <br><br>
+    <label>Favorite number between 11-1000: </label><input type="range">
+    <br><br>
+    <label>When were you born? </label><input type="date">
+    <br><br>
+    <label>Belgium zip-code reg number*: </label><input type="text">
+    <br><br>
+    <label>Search for something: </label><input type="search">
+    <br><br>
+    <label>What's your favorite color: </label><input type="color">
+    <br><br>
+    <input type="submit">
+</form>
+</body>
+</html>
